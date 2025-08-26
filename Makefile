@@ -13,6 +13,9 @@ TWEAK_NAME = iSponsorBlock
 iSponsorBlock_FILES = iSponsorBlock.xm $(wildcard *.m)
 iSponsorBlock_LIBRARIES = colorpicker
 iSponsorBlock_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -Wno-module-import-in-extern-c -Wno-unknown-warning-option -Wno-vla-cxx-extension -Wno-vla-extension
+
+iSponsorBlock_FRAMEWORKS = UIKit CoreGraphics QuartzCore CoreMedia AVFoundation AudioToolbox
+
 iSponsorBlock_CXXFLAGS += -std=gnu++23
 iSponsorBlock_USE_MODULES = 0
 ADDITIONAL_CXXFLAGS += -std=gnu++23
