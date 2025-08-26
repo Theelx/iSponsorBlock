@@ -26,7 +26,7 @@
 #import "YouTubeHeader/YTWatchLayerViewController.h"
 #import "MBProgressHUD.h"
 #import "SponsorSegment.h"
-#include <math.h>
+#include <cmath>
 
 // prefs
 extern BOOL kIsEnabled;
